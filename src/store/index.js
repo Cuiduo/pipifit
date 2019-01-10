@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 Vue.use(Vuex)
-
 //定义state，并将listName设置为一个空对象
 const state = {
     listName: [],
