@@ -1,0 +1,24 @@
+.dotsClass {
+  bottom: 0;
+}
+.range-min,
+.range-max {
+  display: none;
+}
+.range-handle {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #F1531F;
+  box-shadow: none;
+  top: -5px !important;
+}
+.weui-progress__inner-bar {
+  background-color: #666666  !important;
+  border-radius: 0.1rem;
+}
+.weui-progress__bar {
+  border-radius: 0.1rem;
+}
+.calculatorContent .vux-swiper {
+  height: 3.2rem !important;
+}

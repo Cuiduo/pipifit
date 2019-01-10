@@ -1,0 +1,42 @@
+@colorone:#F1531F;
+@swiper-indicator-active-color:#BEBEBE;
+@range-bar-active-color:@colorone;
+@tab-text-active-color:@colorone;
+@tab-bar-active-color:@colorone;
+.dotsClass{
+   bottom: 0;
+}
+.range-min,.range-max{
+   display: none;
+}
+.mixin() {
+   top: -8px;
+   width: 0.5rem;
+   height: 0.5rem;
+   background: @colorone;
+   box-shadow: none;
+}
+.range-handle{
+   
+   .mixin() !important;
+}
+.progress(){
+   background-color: #666666 ;	 
+}
+.weui-progress__inner-bar{
+   .progress() !important;
+	border-radius: 0.1rem;
+}
+.weui-progress__bar{
+	border-radius: 0.1rem;
+}
+.vux-tab{
+   // margin-top: -0.1rem;
+}
+.swiperheight() {
+   height: 3.2rem;
+}
+.calculatorContent .vux-swiper{
+   .swiperheight() !important;
+}
+
